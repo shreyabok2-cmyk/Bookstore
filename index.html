@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independent Bookstore Events</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Independent Bookstore Events</h1>
+        <p>Discover upcoming events and workshops</p>
+    </header>
+
+    <section class="search-section">
+        <input type="text" placeholder="Search events...." aria-label="Search Events">
+        <button>Search</button>
+    </section>
+
+    <section class="events">
+        <h2>Upcoming Events</h2>
+        <div class="events-container">
+
+        <div class="event-card">
+            <h3>Book Reading Night</h3>
+            <p><strong>Date:</strong>20 July 2026</p>
+            <p><strong>Time:</strong>6:00 PM</p>
+            <p><strong>Location:</strong>Main Hall</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="event-card">
+            <h3>Author Meet & Greet</h3>
+            <p><strong>Date:</strong>25 July 2026</p>
+            <p><strong>Time:</strong>4:00 PM</p>
+            <p><strong>Location:</strong>Conference Room</p>
+            <button>View Details</button>
+        </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <h2>Add New Event</h2>
+        <form>
+            <input type="text" placeholder="Event Name" required>
+            <input type="date" required>
+            <input type="text" placeholder="Location" required>
+            
+        </form>
+        <button type="submit">Save Event</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Independent Bookstores</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
